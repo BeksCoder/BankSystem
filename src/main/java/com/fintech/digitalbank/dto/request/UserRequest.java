@@ -5,7 +5,6 @@ import lombok.Builder;
 
 @Builder
 public record UserRequest(
-         Long id,
          String firstName,
          String lastName,
          String otherName,
@@ -14,8 +13,7 @@ public record UserRequest(
          String stateOfOrigin,
          String email,
          String phoneNumber,
-         String alterNativePhoneNumber,
-         String status
+         String alterNativePhoneNumber
 ) {
 
 }
